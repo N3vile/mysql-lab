@@ -30,3 +30,5 @@ USE formation;
 SHOW TABLES;
 ## Vérifier les utilisateurs créés
 SELECT * FROM utilisateurs;
+
+Image docker : elvinchabiron/mysql-lab:1.0
