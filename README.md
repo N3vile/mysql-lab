@@ -1,8 +1,8 @@
 # Structure du projet
-├── Dockerfile
-├── init-v001.sql
-├── init-v002.sql
-└── README.md
+- Dockerfile
+- init-v001.sql
+- init-v002.sql
+- README.md
 Dockerfile : Image personnalisée basée sur MySQL 9.1, copie les scripts SQL d'initialisation.
 init-v001.sql : Script de création de la base formation et de la table utilisateurs.
 init-v002.sql : Script d’insertion de 3 utilisateurs dans la table.
