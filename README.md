@@ -1,11 +1,15 @@
-# Structure du projet
+## Structure du projet
+```
 - Dockerfile
 - init-v001.sql
 - init-v002.sql
 - README.md
-Dockerfile : Image personnalisée basée sur MySQL 9.1, copie les scripts SQL d'initialisation.
-init-v001.sql : Script de création de la base formation et de la table utilisateurs.
-init-v002.sql : Script d’insertion de 3 utilisateurs dans la table.
+```
+### Description des fichiers
+- **Dockerfile** : Image personnalisée basée sur MySQL 9.1, copie les scripts SQL d'initialisation.
+- **init-v001.sql** : Script de création de la base `formation` et de la table `utilisateurs`.
+- **init-v002.sql** : Script d’insertion de 3 utilisateurs dans la table.
+- **README.md** : Documentation du projet.
 
 # Étapes pour builder et lancer le projet
 ## 1. Pré-requis
